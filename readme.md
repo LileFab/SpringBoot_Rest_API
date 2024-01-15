@@ -2,6 +2,8 @@ Rendu REST SpringBoot Fabien Fleisch
 
 ## Installation
  - Cloner le projet
+ - Ouvrir un invité de commande
+ - Faire "cd SpringBoot_Rest_API"
  - Ouvrir artifact dans l'IDE JAVA de votre choix
  - Clique droit sur le fichier pom.xml -> Maven -> Reload project (pour charger les dépendances)
  - Build le projet
