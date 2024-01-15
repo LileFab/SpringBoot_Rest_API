@@ -22,3 +22,6 @@ Rendu REST SpringBoot Fabien Fleisch
  - Ouvrir un terminal a la racine du projet
  - Faire la commande `npm install axios` pour installer la dépendance axios
  - Faire la commande `node script.js` pour lancer le script
+
+## GIF
+![](https://github.com/LileFab/SpringBoot_Rest_API/blob/main/utilisation%20_postman.gif)
