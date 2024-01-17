@@ -2,6 +2,8 @@ Rendu REST SpringBoot Fabien Fleisch
 
 ## Installation
  - Cloner le projet
+ - Ouvrir un invité de commande
+ - Faire "cd SpringBoot_Rest_API"
  - Ouvrir artifact dans l'IDE JAVA de votre choix
  - Clique droit sur le fichier pom.xml -> Maven -> Reload project (pour charger les dépendances)
  - Build le projet
@@ -22,3 +24,10 @@ Rendu REST SpringBoot Fabien Fleisch
  - Ouvrir un terminal a la racine du projet
  - Faire la commande `npm install axios` pour installer la dépendance axios
  - Faire la commande `node script.js` pour lancer le script
+
+## Autres fonctionnalités
+Les fonctions de supression et de mise à jour sont aussi implémenté dans le code libre à vous de les tester via PostMan :
+ - Pour la mise à jour utiliser la méthode PUT dans PostMan et passer en body un json adapté (ex : {"nom": "Tom", "prenom": "Alexandre", "age": 32}) avec l'url http://localhost:8080/joueurs/{1} pour modifier le joueur avec l'id 1
+ - Pour la supression utiliser la méthode DEL et indiquer dans l'url l'id de l'entité à supprimer, par exemple pour suprrimer l'équipe avec l'id 2 il faut utiliser le l'url suivant de PostMan http://localhost:8080/equipes/{1} (sans oublier la méthode DEL)
+## GIF
+![](https://github.com/LileFab/SpringBoot_Rest_API/blob/main/utilisation%20_postman.gif)
